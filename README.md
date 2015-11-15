@@ -27,3 +27,8 @@ c.jar
 netspy.jsp
 内网探测脚本2.0（form:jeary-[zone](http://zone.wooyun.org/content/23517)）
 
+==
+PS:代码写得匆忙有两个小问题。
+1.<%@page import="org.apache.commons.io.FileUtils"%>  这行应该删掉，因为之前写代码有人告诉我用这个操作读写文件比较方便。
+
+2.412行改为自己脚本的所在位置。
